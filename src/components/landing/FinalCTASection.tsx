@@ -7,12 +7,12 @@ interface FinalCTASectionProps {
 
 export function FinalCTASection({ whatsappLink }: FinalCTASectionProps) {
   return (
-    <section className="bg-bumiversa-900 py-20 md:py-28 text-center">
+    <section className="bg-navy-grid py-20 md:py-28 text-center">
       <div className="max-w-content mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           {pageContent.finalCta.headline}
         </h2>
-        <p className="text-lg md:text-xl text-bumiversa-50 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed">
           {pageContent.finalCta.subheadline}
         </p>
 

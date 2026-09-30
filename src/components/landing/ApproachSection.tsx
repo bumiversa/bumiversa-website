@@ -11,7 +11,7 @@ export function ApproachSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {pageContent.approach.points.map((point, index) => (
-            <div key={index} className="flex flex-col border-t-2 border-bumiversa-500 pt-6">
+            <div key={index} className="flex flex-col border-t-2 border-accent pt-6">
               <h3 className="text-xl font-semibold text-bumiversa-900 mb-3">
                 {point.title}
               </h3>
