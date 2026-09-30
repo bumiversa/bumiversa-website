@@ -8,6 +8,7 @@ import { SystemProofSection } from "@/components/landing/SystemProofSection";
 import { ScopeSection } from "@/components/landing/ScopeSection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { FinalCTASection } from "@/components/landing/FinalCTASection";
+import { NetworkRecommendation } from "@/components/shared/NetworkRecommendation";
 
 export default function Home() {
   const whatsappMessage = `Halo ${siteConfig.name}, saya mengunjungi halaman *${siteConfig.domain}*. ${pageContent.hero.ctaText}`;
@@ -23,6 +24,9 @@ export default function Home() {
       <ScopeSection />
       <FAQSection />
       <FinalCTASection whatsappLink={whatsappLink} />
+
+      {/* Network Recommendation: Context = 'website' */}
+      <NetworkRecommendation currentContext="website" />
     </main>
   );
 }
